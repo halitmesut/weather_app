@@ -22,7 +22,8 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _cityController = TextEditingController();
   final Constants _constants = Constants();
 
-  static String API_KEY = ''; //Paste Your API Here!!!
+  static String API_KEY =
+      'eb08e74da1f84a70aa1204409220206'; //Paste Your API Here!!!
 
   String location = 'London'; //Default location
   String weatherIcon = 'heavycloud.png';

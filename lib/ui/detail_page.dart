@@ -6,6 +6,7 @@ import 'package:flutter_weather_app_v2/constants.dart';
 import 'package:intl/intl.dart';
 
 class DetailPage extends StatefulWidget {
+  // ignore: prefer_typing_uninitialized_variables
   final dailyForecastWeather;
 
   const DetailPage({Key? key, this.dailyForecastWeather}) : super(key: key);
